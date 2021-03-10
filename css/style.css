@@ -1,0 +1,12 @@
+body{
+    background: white;
+}
+#numbers{
+    margin:20px;
+}
+#number0{
+    margin-bottom: 20px;
+}
+.boton{
+    border-radius: 6px;
+}
