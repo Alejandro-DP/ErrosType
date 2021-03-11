@@ -33,6 +33,7 @@ function Number(){
     const val3 = ErrorP;
     
     alert("Error Aproximado : "+ ErrorA + "\n"+ "Error Relativo: "+ ErrorR + "\n" + "Error RP: " + ErrorP +"%");
+    color: red;
   
     
 
