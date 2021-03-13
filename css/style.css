@@ -1,5 +1,5 @@
 body{
-    background: white;
+    background: linear-gradient(to right, #3a7fd5, #6ebce2);
 }
 #numbers{
     margin:20px;
@@ -9,4 +9,16 @@ body{
 }
 .boton{
     border-radius: 6px;
+}
+.content{
+    background:#ffff;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    opacity: 90%;
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+    box-shadow: 5px 5px 15px -1px #000000;
+}
+.boton{
+    margin-top: 10px;
 }
