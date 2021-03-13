@@ -1,23 +1,3 @@
-/*function number(){
-    var arrayv = new Array();
-    var valor =  document.getElementsByClassName('numero'),
-    valor = [].map.call(valor, function(valoresinput){
-        arrayv.push(valoresinput.value)
-    });
-
-    arrayv.forEach(function(dataValues){
-        let ErrorA ;
-        for(var i = 0 ; i > dataValues.length;i++){
-            if (dataValues[i] > 0 ){
-                ErrorA = dataValues[0] + i ;
-            }
-            
-        }
-        console.log(i);
-    });
-  
-}*/
-
 function Number(){
     var numero2 = null;
     var numero1 = null;
@@ -33,11 +13,5 @@ function Number(){
     const val3 = ErrorP;
     
     alert("Error Aproximado : "+ ErrorA + "\n"+ "Error Relativo: "+ ErrorR + "\n" + "Error RP: " + ErrorP +"%");
-    
-  
-    
 
-   /* const div = document.querySelector('.lista-resultados');
-    div.innerHTML = 
-*/
 };
