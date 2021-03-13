@@ -20,13 +20,26 @@
             <button id="cal" type="submit" onclick="Number()" class="btn-primary boton">Calcular</button>
         </div>
     </div>
-    <div class="lista-resultados">
+    <div id="lista-resultados">
+        <table class="table" id="tabla">
+            <thead>
+                <tr>
+                    <th>Erro Aproximado</th>
+                    <th>Error Relativo</th>
+                    <th>Error Relativo Porecentual</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="data">
 
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="jjs/app.js"></script>
 </body>

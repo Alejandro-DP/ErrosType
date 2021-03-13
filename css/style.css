@@ -15,9 +15,10 @@ body{
     width: 500px;
     height: 300px;
     padding: 20px;
-    opacity: 90%;
+    opacity: 80%;
     -webkit-box-shadow: 5px 5px 15px -1px #000000; 
     box-shadow: 5px 5px 15px -1px #000000;
+    border-radius: 10px;
 }
 .boton{
     margin-top: 10px;
