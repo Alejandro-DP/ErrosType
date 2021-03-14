@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(to right, #3a7fd5, #6ebce2);
+    display: flex;
 }
 #numbers{
     margin:20px;
@@ -22,4 +23,7 @@ body{
 }
 .boton{
     margin-top: 10px;
+}
+#tabla{
+    margin-left: 30px;  
 }
