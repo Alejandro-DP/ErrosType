@@ -1,4 +1,9 @@
 // JavaScript source code
+/*
+var termino = prompt("Ingresa cuantos terminos requieres");
+var valor = prompt("Ingresa el valor de x");
+*/
+
 function factorial(a) {
     if (a === 0) {
         return 1;
@@ -7,13 +12,17 @@ function factorial(a) {
     }
 }
 
-var termino = prompt("Ingresa cuantos terminos requieres");
-var valor = prompt("Ingresa el valor de x");
-var t = parseInt(termino);
-var e = parseInt(valor);
+function obtenerDatos() {
 
-for (i = 1; i <= t; i++) {
-    e = e + 1 / factorial(i);
+    var termino = document.getElementById("elementos").value;
+    var valor = document.getElementById("valorx").value;
+
+    var t = parseInt(termino);
+    var e = parseInt(valor);
+
+    for (i = 1; i <= t; i++) {
+        e = e + 1 / factorial(i);
+    }
+
+    alert("El resultado es: " + e);
 }
-
-alert("El resultado es: " + e);
