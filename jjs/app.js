@@ -1,3 +1,4 @@
+//autor : Alejadnro
 const listvalore = document.getElementById('data');
 function Number(){
     var numero2 = null;
