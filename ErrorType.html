@@ -10,6 +10,9 @@
 </head>
 <body>
     <div class="content" id="numbers">
+        <div class="">
+            <h5>Errores</h5>
+        </div>
         <div class="form-group" id="number0" >
             <input name="valor1"type="number" class="form-control numero" placeholder="Valor Verdadero"> 
         </div>
@@ -21,25 +24,22 @@
         </div>
     </div>
     <div id="lista-resultados">
-        <table class="table" id="tabla">
+        <table class="table table-dark table-striped" id="tabla">
             <thead>
                 <tr>
-                    <th>Erro Aproximado</th>
+                    <th>Error Aproximado</th>
                     <th>Error Relativo</th>
                     <th>Error Relativo Porecentual</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr id="data">
-
-                </tr>
-            </tbody>
+            <tbody id="data"></tbody>
         </table>
     </div>
 
 
-
-    
+    <footer>
+        <p>&copy;Allejandro de la cruz Perez</p>
+      </footer>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="jjs/app.js"></script>
 </body>

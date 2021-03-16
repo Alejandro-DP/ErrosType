@@ -25,5 +25,11 @@ body{
     margin-top: 10px;
 }
 #tabla{
-    margin-left: 30px;  
+    margin-left: 30px;
+    margin-top: 30px;
+}
+footer{
+position: absolute;
+text-align: center;
+bottom: 1px;
 }
